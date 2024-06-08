@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    overflow: hidden;
+}
+.main-sec{
+    width: 40vw;
+border-radius: 20px;
+height:22vw;
+padding: 0px 20px ;
+backdrop-filter: blur(10px);
+box-shadow: 0px 0px 10px 12px rgba(255, 246, 246, 0.2);
+margin: auto;
+font-size: 2vw;
+text-align: center;
+margin-bottom: 50px;
+}
+.main-sec input{
+    width: 60%;
+    height: 12%;
+    padding: 2%;
+    margin: 10px 0px;
+border-radius: 10px;
+border: none;
+}
+.main-sec button{
+    width: 25%;
+    height: 10%;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+transition: all .4s;
+}
+.main-sec button:hover{
+    background-color: rgb(44, 44, 164);
+    color: white;
+}
+.main{
+background-color: rgba(0, 0, 0, 0.705);
+width: 100vw;
+height: 100vh;
+/* margin: -50px 0px; */
+}
+nav{
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 30px;
+    backdrop-filter: blur(10px);
+box-shadow: 0px 0px 10px 12px rgba(255, 246, 246, 0.2);
+}
+h1{
+    color: aliceblue  ;
+    text-align: center;
+    margin: 30px 0px;
+    text-decoration: underline;
+    -webkit-text-stroke: 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5vw;
+    transform: all ease .6s;
+}
+h1:hover{
+color: transparent;
+}
+#question{
+width: 40vw;
+border-radius: 20px;
+height:12vw;
+padding: 0px 20px ;
+backdrop-filter: blur(10px);
+box-shadow: 0px 0px 10px 12px rgba(255, 246, 246, 0.2);
+margin: auto;
+font-size: 2vw;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+.cont{
+    font-size: 2vw;
+    padding: 0px 100px;
+}
+.cont button{
+    width: 8vw;
+    height: 2vw;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+transition: all .4s;
+}
+.cont button:hover{
+    background-color: rgb(44, 44, 164);
+    color: white;
+}
